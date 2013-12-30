@@ -11,8 +11,10 @@ install it as:
 
 ## Usage
 
+```
 $ cd yourapp
 $ sigsurv
+```
 
 ## Contributing
 
