@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chad@chadfowler.com"]
   spec.summary       = %q{This is a stupid version of Ward's Signature Survey which gives a visual indication of code complexity per file.}
   spec.description   = %q{run "sigsurv" to scan the local directory's ruby files. See http://c2.com/doc/SignatureSurvey/ for more info.}
-  spec.homepage      = "http://chadfowler.com"
+  spec.homepage      = "http://github.com/chad/sigsurv"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
