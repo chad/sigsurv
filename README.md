@@ -1,24 +1,18 @@
 # Sigsurv
 
-TODO: Write a gem description
+This is a stupid implementation of Ward Cunningham's clever [Signature Survey](http://c2.com/doc/SignatureSurvey/).
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'sigsurv'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+install it as:
 
     $ gem install sigsurv
 
 ## Usage
 
-TODO: Write usage instructions here
+$ cd yourapp
+$ sigsurv
 
 ## Contributing
 
