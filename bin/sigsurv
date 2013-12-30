@@ -1,0 +1,6 @@
+require 'sigsurv'
+components =  Sigsurv.analyze(Dir.pwd)
+max_size = components.map(&:first).map{|f| File.basename(f)}.sort_by{|c| c.size}.last.size
+components.sort_by{|c| c.last.size}.map do |component|
+  printf("%#{max_size}s - %s\n", File.basename(component.first), component.last)
+end
